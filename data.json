@@ -1,0 +1,134 @@
+{
+    "product": {
+        "name": "Flowora",
+        "category": "Productivity Workspace",
+        "tagline": "Turn your ideas into momentum.",
+        "description": "A calm and powerful workspace for managing tasks, projects, notes and team collaboration.",
+        "website": "https://flowora.example.com"
+    },
+
+    "pricing": {
+        "currency": "USD",
+        "plans": [
+            {
+                "id": "free",
+                "name": "Free",
+                "price": 0,
+                "period": "forever",
+                "description": "For individuals starting a better workflow.",
+                "features": [
+                    "3 active projects",
+                    "Basic task management",
+                    "Quick notes",
+                    "Personal dashboard"
+                ]
+            },
+            {
+                "id": "pro",
+                "name": "Flowora Pro",
+                "price": 9,
+                "period": "month",
+                "description": "Everything you need to keep your work flowing.",
+                "features": [
+                    "Unlimited projects",
+                    "Advanced analytics",
+                    "Team collaboration",
+                    "AI task assistant"
+                ],
+                "popular": true
+            },
+            {
+                "id": "team",
+                "name": "Team",
+                "price": 15,
+                "period": "user/month",
+                "description": "For teams that want to work better together.",
+                "features": [
+                    "Everything in Pro",
+                    "Unlimited team members",
+                    "Advanced permissions",
+                    "Team productivity reports"
+                ]
+            }
+        ]
+    },
+
+    "features": [
+        {
+            "id": 1,
+            "name": "Smart Tasks",
+            "icon": "✓",
+            "description": "Break goals into simple actionable tasks."
+        },
+        {
+            "id": 2,
+            "name": "Focus Mode",
+            "icon": "◉",
+            "description": "Protect your attention with distraction-free sessions."
+        },
+        {
+            "id": 3,
+            "name": "Team Sync",
+            "icon": "⌁",
+            "description": "Keep everyone aligned in real time."
+        },
+        {
+            "id": 4,
+            "name": "Visual Projects",
+            "icon": "▦",
+            "description": "Plan projects with flexible visual workflows."
+        },
+        {
+            "id": 5,
+            "name": "Quick Notes",
+            "icon": "✎",
+            "description": "Capture ideas instantly and organize them later."
+        },
+        {
+            "id": 6,
+            "name": "Progress Insights",
+            "icon": "↗",
+            "description": "Understand your productivity with useful analytics."
+        }
+    ],
+
+    "stats": [
+        {
+            "value": "12k+",
+            "label": "Active users"
+        },
+        {
+            "value": "98%",
+            "label": "User satisfaction"
+        },
+        {
+            "value": "4.9/5",
+            "label": "Average rating"
+        },
+        {
+            "value": "32%",
+            "label": "More productive"
+        }
+    ],
+
+    "testimonials": [
+        {
+            "name": "Maya Chen",
+            "role": "Product Designer",
+            "rating": 5,
+            "text": "Flowora replaced three different apps for our team. Everything finally feels connected."
+        },
+        {
+            "name": "Ryan Brooks",
+            "role": "Founder, Vertex",
+            "rating": 5,
+            "text": "The interface is incredibly clean. I spend less time managing my work and more time actually doing it."
+        },
+        {
+            "name": "Sofia Lee",
+            "role": "Creative Director",
+            "rating": 5,
+            "text": "Our weekly planning went from an hour to about fifteen minutes. Huge improvement."
+        }
+    ]
+}

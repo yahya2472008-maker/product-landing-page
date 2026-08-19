@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Flowora — Smart Productivity Workspace</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Background -->
+    <div class="bg-glow glow-one"></div>
+    <div class="bg-glow glow-two"></div>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="container nav-inner">
+
+            <a href="#" class="logo">
+                <span class="logo-icon">✦</span>
+                Flowora
+            </a>
+
+            <nav class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#showcase">Product</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#reviews">Reviews</a>
+            </nav>
+
+            <div class="nav-actions">
+                <button class="login-btn">Log in</button>
+                <a href="#pricing" class="nav-cta">Get Started</a>
+            </div>
+
+            <button class="menu-btn" id="menuBtn">
+                ☰
+            </button>
+
+        </div>
+    </header>
+
+
+    <!-- MOBILE MENU -->
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="#features">Features</a>
+        <a href="#showcase">Product</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#pricing" class="mobile-cta">Get Started</a>
+    </div>
+
+
+    <!-- HERO -->
+    <main>
+
+        <section class="hero">
+            <div class="container hero-grid">
+
+                <div class="hero-content">
+
+                    <div class="eyebrow">
+                        <span class="pulse"></span>
+                        The smarter way to work
+                    </div>
+
+                    <h1>
+                        Turn your
+                        <span class="gradient-text">ideas</span>
+                        into momentum.
+                    </h1>
+
+                    <p>
+                        Flowora brings tasks, projects, notes and team
+                        collaboration into one beautifully simple workspace.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#pricing" class="primary-btn">
+                            Start for free
+                            <span>→</span>
+                        </a>
+
+                        <button class="demo-btn" id="demoBtn">
+                            <span class="play-icon">▶</span>
+                            Watch demo
+                        </button>
+                    </div>
+
+                    <div class="hero-note">
+                        <div class="avatar-stack">
+                            <span>A</span>
+                            <span>B</span>
+                            <span>C</span>
+                            <span>D</span>
+                        </div>
+
+                        <div>
+                            <strong>12,000+</strong>
+                            <small>productive teams</small>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <!-- PRODUCT MOCKUP -->
+                <div class="hero-visual">
+
+                    <div class="floating-card floating-card-top">
+                        <span class="mini-icon purple">✓</span>
+                        <div>
+                            <strong>Task completed</strong>
+                            <small>Website launch</small>
+                        </div>
+                    </div>
+
+                    <div class="app-window">
+
+                        <div class="window-top">
+                            <div class="window-dots">
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                            </div>
+
+                            <span>Flowora Workspace</span>
+
+                            <div class="window-user">JD</div>
+                        </div>
+
+                        <div class="app-layout">
+
+                            <aside class="sidebar">
+
+                                <div class="workspace-name">
+                                    <span class="workspace-logo">F</span>
+                                    Acme Studio
+                                </div>
+
+                                <div class="side-label">WORKSPACE</div>
+
+                                <a class="side-item active">
+                                    <span>▦</span>
+                                    Overview
+                                </a>
+
+                                <a class="side-item">
+                                    <span>✓</span>
+                                    My Tasks
+                                    <b>8</b>
+                                </a>
+
+                                <a class="side-item">
+                                    <span>◫</span>
+                                    Projects
+                                </a>
+
+                                <a class="side-item">
+                                    <span>✎</span>
+                                    Notes
+                                </a>
+
+                                <div class="side-label">PROJECTS</div>
+
+                                <a class="side-item">
+                                    <span class="dot pink"></span>
+                                    Website Redesign
+                                </a>
+
+                                <a class="side-item">
+                                    <span class="dot cyan"></span>
+                                    Mobile App
+                                </a>
+
+                                <a class="side-item">
+                                    <span class="dot yellow"></span>
+                                    Marketing
+                                </a>
+
+                            </aside>
+
+
+                            <div class="dashboard">
+
+                                <div class="dashboard-header">
+                                    <div>
+                                        <small>Wednesday, August 19</small>
+                                        <h3>Good morning, Jordan 👋</h3>
+                                    </div>
+
+                                    <button class="add-btn">+ New task</button>
+                                </div>
+
+
+                                <div class="stats-grid">
+
+                                    <div class="stat-card">
+                                        <span class="stat-icon purple">✓</span>
+                                        <div>
+                                            <small>Completed</small>
+                                            <strong>28</strong>
+                                        </div>
+                                        <em>+18%</em>
+                                    </div>
+
+                                    <div class="stat-card">
+                                        <span class="stat-icon orange">◷</span>
+                                        <div>
+                                            <small>In progress</small>
+                                            <strong>12</strong>
+                                        </div>
+                                        <em>+6%</em>
+                                    </div>
+
+                                    <div class="stat-card">
+                                        <span class="stat-icon blue">◎</span>
+                                        <div>
+                                            <small>Focus time</small>
+                                            <strong>6.4h</strong>
+                                        </div>
+                                        <em>+24%</em>
+                                    </div>
+
+                                </div>
+
+
+                                <div class="dashboard-content">
+
+                                    <div class="tasks-card">
+
+                                        <div class="card-heading">
+                                            <div>
+                                                <h4>Today's tasks</h4>
+                                                <small>5 tasks remaining</small>
+                                            </div>
+
+                                            <span>•••</span>
+                                        </div>
+
+                                        <div class="task completed">
+                                            <span class="check">✓</span>
+                                            <div>
+                                                <strong>Review homepage design</strong>
+                                                <small>Website Redesign</small>
+                                            </div>
+                                            <span class="tag purple-tag">Done</span>
+                                        </div>
+
+                                        <div class="task">
+                                            <span class="empty-check"></span>
+                                            <div>
+                                                <strong>Prepare product presentation</strong>
+                                                <small>Marketing</small>
+                                            </div>
+                                            <span class="tag orange-tag">Today</span>
+                                        </div>
+
+                                        <div class="task">
+                                            <span class="empty-check"></span>
+                                            <div>
+                                                <strong>Sync with development team</strong>
+                                                <small>Mobile App</small>
+                                            </div>
+                                            <span class="tag blue-tag">2:30 PM</span>
+                                        </div>
+
+                                        <div class="task">
+                                            <span class="empty-check"></span>
+                                            <div>
+                                                <strong>Write launch announcement</strong>
+                                                <small>Marketing</small>
+                                            </div>
+                                            <span class="tag pink-tag">Tomorrow</span>
+                                        </div>
+
+                                    </div>
+
+
+                                    <div class="focus-card">
+
+                                        <div class="focus-top">
+                                            <h4>Focus</h4>
+                                            <span>•••</span>
+                                        </div>
+
+                                        <div class="circle-progress">
+                                            <div>
+                                                <strong>72%</strong>
+                                                <small>Goal</small>
+                                            </div>
+                                        </div>
+
+                                        <p>You're doing great!</p>
+
+                                        <div class="progress-line">
+                                            <span></span>
+                                        </div>
+
+                                        <small>4h 20m focused today</small>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="floating-card floating-card-bottom">
+                        <div class="mini-chart">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div>
+                            <strong>+32% productivity</strong>
+                            <small>This month</small>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- LOGOS -->
+        <section class="trusted">
+            <div class="container">
+                <p>TRUSTED BY MODERN TEAMS AT</p>
+
+                <div class="brand-list">
+                    <span>northstar</span>
+                    <span>vertex</span>
+                    <span>orbit</span>
+                    <span>MONO</span>
+                    <span>kinetic</span>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- FEATURES -->
+        <section class="features section" id="features">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <div class="eyebrow">POWERFUL FEATURES</div>
+
+                    <h2>
+                        Everything you need.
+                        <span class="muted-text">Nothing you don't.</span>
+                    </h2>
+
+                    <p>
+                        A focused workspace designed to help you organize,
+                        collaborate and get meaningful work done.
+                    </p>
+                </div>
+
+
+                <div class="feature-grid" id="featureGrid">
+                    <!-- Generated by JS -->
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- SHOWCASE -->
+        <section class="showcase section" id="showcase">
+
+            <div class="container showcase-grid">
+
+                <div class="showcase-content">
+
+                    <div class="eyebrow">YOUR WORK, ORGANIZED</div>
+
+                    <h2>
+                        From scattered ideas
+                        to <span class="gradient-text">clear action.</span>
+                    </h2>
+
+                    <p>
+                        Capture everything in one place and let Flowora
+                        transform your ideas into organized projects.
+                    </p>
+
+                    <div class="benefit-list">
+
+                        <div>
+                            <span>✓</span>
+                            <p>
+                                <strong>Smart task management</strong>
+                                Prioritize what actually matters.
+                            </p>
+                        </div>
+
+                        <div>
+                            <span>✓</span>
+                            <p>
+                                <strong>Real-time collaboration</strong>
+                                Work together without endless meetings.
+                            </p>
+                        </div>
+
+                        <div>
+                            <span>✓</span>
+                            <p>
+                                <strong>Deep work mode</strong>
+                                Protect your focus and eliminate distractions.
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <a href="#pricing" class="text-btn">
+                        Explore Flowora
+                        <span>→</span>
+                    </a>
+
+                </div>
+
+
+                <div class="showcase-visual">
+
+                    <div class="notes-window">
+
+                        <div class="notes-header">
+                            <span>Project Notes</span>
+                            <span>•••</span>
+                        </div>
+
+                        <div class="note-title">
+                            <span class="note-color"></span>
+                            Product launch strategy
+                        </div>
+
+                        <div class="note-line large"></div>
+                        <div class="note-line"></div>
+                        <div class="note-line medium"></div>
+
+                        <div class="note-grid">
+
+                            <div class="note-box pink-bg">
+                                <span>01</span>
+                                Research
+                                <small>12 notes</small>
+                            </div>
+
+                            <div class="note-box blue-bg">
+                                <span>02</span>
+                                Planning
+                                <small>8 tasks</small>
+                            </div>
+
+                            <div class="note-box yellow-bg">
+                                <span>03</span>
+                                Execution
+                                <small>24 tasks</small>
+                            </div>
+
+                            <div class="note-box purple-bg">
+                                <span>04</span>
+                                Launch
+                                <small>6 tasks</small>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- STATS -->
+        <section class="stats-section">
+
+            <div class="container stats-wrapper">
+
+                <div>
+                    <strong>12k+</strong>
+                    <span>Active users</span>
+                </div>
+
+                <div>
+                    <strong>98%</strong>
+                    <span>User satisfaction</span>
+                </div>
+
+                <div>
+                    <strong>4.9/5</strong>
+                    <span>Average rating</span>
+                </div>
+
+                <div>
+                    <strong>32%</strong>
+                    <span>More productive</span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- REVIEWS -->
+        <section class="reviews section" id="reviews">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <div class="eyebrow">LOVED BY CREATORS</div>
+                    <h2>Less chaos. <span class="gradient-text">More flow.</span></h2>
+                </div>
+
+                <div class="review-grid">
+
+                    <article class="review-card">
+                        <div class="stars">★★★★★</div>
+
+                        <p>
+                            "Flowora replaced three different apps for our
+                            team. Everything finally feels connected."
+                        </p>
+
+                        <div class="review-author">
+                            <span class="review-avatar avatar-a">M</span>
+                            <div>
+                                <strong>Maya Chen</strong>
+                                <small>Product Designer</small>
+                            </div>
+                        </div>
+                    </article>
+
+
+                    <article class="review-card featured-review">
+                        <div class="stars">★★★★★</div>
+
+                        <p>
+                            "The interface is incredibly clean. I spend less
+                            time managing my work and more time actually doing it."
+                        </p>
+
+                        <div class="review-author">
+                            <span class="review-avatar avatar-b">R</span>
+                            <div>
+                                <strong>Ryan Brooks</strong>
+                                <small>Founder, Vertex</small>
+                            </div>
+                        </div>
+                    </article>
+
+
+                    <article class="review-card">
+                        <div class="stars">★★★★★</div>
+
+                        <p>
+                            "Our weekly planning went from an hour to about
+                            fifteen minutes. Huge improvement."
+                        </p>
+
+                        <div class="review-author">
+                            <span class="review-avatar avatar-c">S</span>
+                            <div>
+                                <strong>Sofia Lee</strong>
+                                <small>Creative Director</small>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- PRICING -->
+        <section class="pricing section" id="pricing">
+
+            <div class="container pricing-container">
+
+                <div class="pricing-heading">
+                    <div class="eyebrow">SIMPLE PRICING</div>
+
+                    <h2>
+                        Start free.
+                        <span class="gradient-text">Scale when ready.</span>
+                    </h2>
+
+                    <p>
+                        No complicated plans. Start building your perfect
+                        workflow today.
+                    </p>
+                </div>
+
+
+                <div class="pricing-card">
+
+                    <div>
+                        <span class="plan-label">FLOWORA PRO</span>
+
+                        <h3>$9<span>/month</span></h3>
+
+                        <p>
+                            Everything you need to keep your work flowing.
+                        </p>
+                    </div>
+
+                    <div class="pricing-features">
+                        <span>✓ Unlimited projects</span>
+                        <span>✓ Advanced analytics</span>
+                        <span>✓ Team collaboration</span>
+                        <span>✓ AI task assistant</span>
+                    </div>
+
+                    <button class="pricing-btn" id="pricingBtn">
+                        Start 14-day free trial →
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- FINAL CTA -->
+        <section class="final-cta">
+
+            <div class="container">
+
+                <div class="cta-box">
+
+                    <div class="cta-decoration decoration-one"></div>
+                    <div class="cta-decoration decoration-two"></div>
+
+                    <div class="eyebrow">READY TO GET STARTED?</div>
+
+                    <h2>
+                        Make space for
+                        <span>better work.</span>
+                    </h2>
+
+                    <p>
+                        Join thousands of people building better workflows
+                        with Flowora.
+                    </p>
+
+                    <a href="#pricing" class="primary-btn light-btn">
+                        Create your free workspace
+                        <span>→</span>
+                    </a>
+
+                    <small>No credit card required · Free forever plan</small>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div class="container footer-inner">
+
+            <div class="footer-brand">
+                <a href="#" class="logo">
+                    <span class="logo-icon">✦</span>
+                    Flowora
+                </a>
+
+                <p>
+                    A calmer workspace for ambitious teams.
+                </p>
+            </div>
+
+            <div class="footer-links">
+                <div>
+                    <strong>Product</strong>
+                    <a href="#features">Features</a>
+                    <a href="#showcase">Product</a>
+                    <a href="#pricing">Pricing</a>
+                </div>
+
+                <div>
+                    <strong>Company</strong>
+                    <a href="#">About</a>
+                    <a href="#">Careers</a>
+                    <a href="#">Contact</a>
+                </div>
+
+                <div>
+                    <strong>Resources</strong>
+                    <a href="#">Help Center</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Community</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="container copyright">
+            © 2026 Flowora. All rights reserved.
+        </div>
+
+    </footer>
+
+
+    <!-- DEMO MODAL -->
+    <div class="modal" id="demoModal">
+
+        <div class="modal-content">
+
+            <button class="modal-close" id="modalClose">×</button>
+
+            <div class="modal-play">▶</div>
+
+            <h3>Flowora Product Demo</h3>
+
+            <p>
+                Imagine your entire workflow organized in one beautiful
+                workspace.
+            </p>
+
+            <button class="primary-btn" id="modalStart">
+                Try Flowora
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
